@@ -5,16 +5,15 @@
 }
 @media (max-width: 1200px) {
 .header {
-    width: 100%;
+    width: 98%;
     &__inner {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 0px 16px;
         gap: 32px;
         
-        width: 70%;
+        width: 96%;
         height: 44px;
     }
 
@@ -137,20 +136,20 @@ body{
     padding: 0px 20px;
     gap: 80px;
 
-    width: 50%;
-    height: 1198px;
+    width: 85%;
+    height:auto;
+    
 
 
     &_banner {
        
         display: flex;
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: center;
         padding: 0px;
         gap: 64px;
-
-        width: 280px;
-        height: 1100px;
+        width: 90%;
+        height:auto;
     }
 
     &__banner-text {
@@ -160,14 +159,13 @@ body{
         padding: 0px;
         gap: 64px;
 
-        width: 280px;
-        height: 1100px;
+        width: 90%;
+        height:auto;
     }
 
     &__text-h1 {
-        width: 280px;
-        height: 240px;
-        
+        width: 90%;
+        height:auto;
         /* Header/Display 2
         
         32/40 (text-display-2)
@@ -182,8 +180,8 @@ body{
     }
 
     &__text-p {
-        width: 280px;
-        height: 400px;
+        width: 85%;
+        height:auto;
 
         font-family: 'Inter';
         font-style: normal;
@@ -197,41 +195,39 @@ body{
     &__banner-image {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
+
+        align-items: center;
         padding: 0px;
         isolation: isolate;
 
-        width: 280px;
-        height: 198px;
+        width: 90%;
+        height:auto;
     }
 
     &__big-image {
-        width: 280px;
-        height: 260px;
+        width: 90%;
+        max-width: 280px;
+        height:auto;
     }
 
     &__advantages {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 16px;
+        align-items: center;
+        margin-left:0;
 
-        width: 280px;
-        height: 1200px;
+        width: 90%;
+        height:auto;
     }
     &__advantages-item {
         box-sizing: border-box;
 
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 24px 24px 24px 32px;
-        gap: 24px;
+        align-items: center;
 
-        width: 280px;
-        height: 304px;
+        width: 90%;
+        height: auto;
 
 
         background: rgba(0, 0, 0, 0.2);
@@ -244,10 +240,9 @@ body{
         flex-direction: row;
         align-items: center;
         padding: 0px;
-        gap: 16px;
 
-        width: 255.67px;
-        height: 72px;
+        width: 90%;
+        height: auto;
     }
 
     &__advantages-ico {
@@ -256,8 +251,8 @@ body{
     }
 
     &__advantages-top-text {
-        width: 191.67px;
-        height: 72px;
+        width: 80%-50px;
+        height: auto;
 
         font-family: 'Inter';
         font-style: normal;
@@ -271,7 +266,7 @@ body{
     }
 
     &__advantages-bottom-text {
-        width: 255.67px;
+        width: 80%;
         height: 96px;
 
 
@@ -288,22 +283,20 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px;
         gap: 32px;
         
-        width: 280px;
-        height: 876px;
+        width: 90%;
+        height: auto;
     }
 
     &__news-row {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px;
         gap: 64px;
 
-        width: 280px;
-        height: 384px;
+        width: 90%;
+        height: auto;
 
     }
 
@@ -314,8 +307,8 @@ body{
         padding: 0px;
         gap: 8px;
 
-        width: 280px;
-        height: 160px;
+        width: 90%;
+        height: auto;
     }
 
     &__news-new-date {
@@ -367,13 +360,13 @@ body{
         padding: 0px;
         gap: 25px;
 
-        width: 270px;
-        height: 150px;
+        width: 85%;
+        height: auto;
     }
 
     &__news-new-text-main {
-      width: 270px;
-      height: 80px;
+      width: 85%;
+      height: 165px;
 
       font-family: 'Inter';
       font-style: normal;
@@ -385,7 +378,7 @@ body{
     }
 
     &__news-new-text-more-info {
-        width: 270px;
+        width: 90%;
         height: 20px;
         font-family: 'Inter';
         font-style: normal;
@@ -403,9 +396,9 @@ body{
     justify-content: center;
     align-items: flex-start;
     position: relative;
-    top:1820px;
-    width: 104%;
-    height: 150px;
+    left:0px;
+    width: 96%;
+    height: 500px;
 
 
     background: rgba(0, 0, 0, 0.15);
@@ -439,7 +432,7 @@ body{
         align-items: flex-start;
         margin-left: 20px;
         width: 280px;
-        height: 150px;
+        height: 250px;
     }
 
     &__list-links {
@@ -457,6 +450,79 @@ body{
         text-decoration: none;
         width: 280px;
         height: 60px;
+    }
+}
+}
+@media (max-width: 400px) {
+.content{
+    &__advantages-top-text {
+        width: 80%-50px;
+        height: auto;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 24px;
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+        color: #FFBE5C;
+    }
+    &__advantages-bottom-text {
+        width: 80%;
+        height: 96px;
+
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+
+        color: #FFFFFF;
+    }
+}
+}
+@media (max-width: 350px) {
+.content{
+    &__text-h1 {
+        width: 90%;
+        height:auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+
+        color: rgba(255, 255, 255, 0.8);
+    }
+    &__advantages-top-text {
+        width: 80%-50px;
+        height: auto;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+        color: #FFBE5C;
+    }
+    &__advantages-bottom-text {
+        width: 80%;
+        height: 96px;
+
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 17px;
+
+        color: #FFFFFF;
     }
 }
 }

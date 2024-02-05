@@ -1,16 +1,21 @@
+.header {
+  font-size: 30px;
+  width: 1200px;
+}
 .header__inner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 80px;
-  gap: 32px;
-  width: 1261px;
+  padding: 0px 0px;
+  gap: 36px;
+  margin: 0px 0px;
+  width: 800px;
   height: 44px;
 }
 .header__logo {
   margin: 0 auto;
-  width: 200px;
+  width: 140px;
   height: 44px;
   flex: none;
   order: 0;
@@ -21,10 +26,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 48px;
-  gap: 32px;
-  margin: 0 auto;
-  width: 752px;
+  gap: 0px;
+  width: 700px;
   max-width: 1280px;
   height: 36px;
   flex: none;
@@ -36,10 +39,10 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px 16px;
+  padding: 5px 0px;
   gap: 8px;
   margin: 0 auto;
-  width: 300px;
+  width: 270px;
   height: 36px;
   border-radius: 8px;
 }
@@ -48,7 +51,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 18px;
   color: #FFFFFF;
 }
@@ -317,7 +320,7 @@ body {
   align-items: flex-start;
   padding: 47px 0px;
   gap: 10px;
-  width: 1261px;
+  width: 1200px;
   height: 200px;
   background: rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(2px);
