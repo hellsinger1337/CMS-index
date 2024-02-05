@@ -299,7 +299,7 @@
   .content__news-new-text-main {
     width: 85%;
     height: 165px;
-    font-family: 'Inter';
+    gfont-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
