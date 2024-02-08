@@ -1,16 +1,17 @@
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
     justify-content: space-around;
     background: url("../../static/img/Cloud.png") no-repeat bottom right,url("../../static/img/bot-grad.png") no-repeat bottom right,linear-gradient(90deg, #382972 0%, #2E1F6D 20%, #1C0D64 67%, #160661 100%);
     font-family: 'Inter', sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;   
+    margin:0; 
 }
 .container{
     max-width: 1120px;
     margin: 0 auto;
     padding: 0px 15px;
+    overflow: hidden;
 }
 .header {
     margin-top: 30px;
@@ -301,7 +302,7 @@ body {
     padding: 47px 0;
     background: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(2px);
-
+    bottom:0;
     &__link {
         text-decoration: none;
         font-family: 'Inter';
