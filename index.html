@@ -39,10 +39,12 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="header__burger">
-                    <img src="static/img/Burger-ico.svg" alt="">
+                <div class="header__hamburger">
+                    <span class="header__hamburger-bar"></span>
+                    <span class="header__hamburger-bar"></span>
+                    <span class="header__hamburger-bar"></span>
                 </div>
-                <button class="header__button button" type="button">
+                <button class="header__button" type="button">
                     <img src="static/img/Left-icon.svg" alt="" class="header__left-icon">
                     <p class="header__elemnts-text-black">Подать заявку</p>
                 </button>
@@ -163,14 +165,25 @@
                         <a href="#" class="content__news-new-text-more-info">Подробнее</a>
                     </div>
                 </div>
-                
+
             </div>
             <div class="content__btn-div">
                 <button class="content__all-news">Все новости</button>
             </div>
         </div>
     </div>
-
+    <div class="bot-grad">
+        <img src="static/img/bot-grad.png" alt="">
+    </div>
+    <div class="top-grad">
+        <img src="static/img/top-grad.png" alt="">
+    </div>
+    <div class="cloud">
+        <img src="static/img/Cloud.png" alt="">
+    </div>
+    <div class="left-grad">
+        <img src="static/img/left-grad.png" alt="">
+    </div>
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
@@ -188,24 +201,19 @@
             </div>
         </div>
     </footer>
+
+    
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            for (var i = 1; i <= 4; i++) {
-                var textContainer = document.getElementById('ntm' + i);
-                var originalText = textContainer.textContent.trim();
-
-                while (textContainer.scrollHeight > textContainer.offsetHeight) {
-                    console.log(123);
-                    textContainer.textContent = textContainer.textContent.slice(0, -5) + '...';
-                }
-            }
-        });
         document.addEventListener('DOMContentLoaded', function () {
-            const burgerMenu = document.querySelector('.header__burger');
+            const burgerMenu = document.querySelector('.header__hamburger');
             const navMenu = document.querySelector('.header__menu');
-
+            const headerBtn = document.querySelector('.header__button')
+            const headerIco = document.querySelector('.header__left-icon')
             burgerMenu.addEventListener('click', function () {
                 navMenu.classList.toggle('show');
+                burgerMenu.classList.toggle('header__hamburger--active');
+                headerBtn.classList.toggle('show');
+                headerIco.classList.toggle('show');
             });
         });
     </script>
