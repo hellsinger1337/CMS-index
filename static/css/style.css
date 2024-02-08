@@ -462,7 +462,6 @@ body {
   }
   .footer {
     flex-direction: column;
-    height: auto;
   }
   .footer__inner {
     margin-left: 20px;
@@ -479,7 +478,7 @@ body {
   }
   .footer__rights {
     width: 90%;
-    height: 104px;
+    height: 80px;
   }
 }
 @media (max-width: 400px) {
