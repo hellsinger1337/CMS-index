@@ -1,168 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
-    <link rel="stylesheet" type="text/css" href="static/css/mobile.css">
+
     <title>Document</title>
 </head>
-<body>
-    <header class="header container">
-        <div class="header__inner">
-            <a href="#" class="header__logo logo">
-                <img src="static/img/Logo.svg" alt="" class="logo__image">
-            </a>
-            <nav class="header__menu">
-                <ul class="header__menu--list">
-                    <li class="header__menu-item">
-                        <a href="" class="header__menu-link">О системе</a>
-                    </li>
-                    <li class="header__menu-item">
-                        <a href="" class="header__menu-link">Документация</a>
-                    </li>
-                    <li class="header__menu-item">
-                        <a href="" class="header__menu-link">Поддержка</a>
-                    </li>
-                    <li class="header__menu-item">
-                        <a href="" class="header__menu-link">Нормативные документы</a>
-                    </li>
-                    <li class="header__menu-item">
-                        <a href="" class="header__menu-link">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="header__burger">
-                <img src="static/img/Burger-ico.svg" alt="">
-            </div>
-            <button class="header__button button" type="button">
-                <img src="static/img/Left-icon.svg" alt="" class="header__left-icon">
-                <p class="header__elemnts-text-black">Подать заявку</p>
-            </button>
 
-        </div>       
+<body>
+    <!-- comment -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="header__logo logo">
+                    <img src="static/img/Logo.svg" alt="" class="logo__image">
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__menu--list">
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">О системе</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">Документация</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">Поддержка</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">Нормативные документы</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__hamburger">
+                    <span class="header__hamburger-bar"></span>
+                    <span class="header__hamburger-bar"></span>
+                    <span class="header__hamburger-bar"></span>
+                </div>
+                <a class="header__button" type="button">
+                    <img src="static/img/Left-icon.svg" alt="" class="header__left-icon">
+                    <p class="header__elemnts-text-black">Подать заявку</p>
+                </a>
+            </div>
+        </div>
     </header>
 
-    <div class="content container">
-        <div class="content_banner">
-            <div class="content__banner-text">
-                <h1 class="content__text-h1"><font color="#FFBE5C">CMS.edu</font> — система управления сайтами для образовательных организаций</h1>
-                <p class="content__text-p">CMS.edu разрабатывалась для управления сайтами образовательных организаций. При разработке учтены особенности, структура и возможности, которые необходимы для построения сайтов образовательных организаций.<br><br> Наша система поможет Вам создать и поддерживать актуализированный сайт образовательной организации, соответствующий требованиям федеральных законов.<br><br> Если Вы представляете образовательную организацию г. Ярославля или Ярославской области, мы приглашаем воспользоваться системой CMS.edu для создания и управления Вашим сайтом.</p>
+    <div class="content">
+        <div class="container">
+            <div class="content__banner">
+                <div class="content__banner-text">
+                    <h1 class="content__text-h1">
+                        <font color="#FFBE5C">CMS.edu</font> — система управления сайтами для образовательных
+                        организаций
+                    </h1>
+                    <p class="content__text-p">CMS.edu разрабатывалась для управления сайтами образовательных
+                        организаций.
+                        При разработке учтены особенности, структура и возможности, которые необходимы для построения
+                        сайтов
+                        образовательных организаций.<br><br> Наша система поможет Вам создать и поддерживать
+                        актуализированный сайт образовательной организации, соответствующий требованиям федеральных
+                        законов.<br><br> Если Вы представляете образовательную организацию г. Ярославля или Ярославской
+                        области, мы приглашаем воспользоваться системой CMS.edu для создания и управления Вашим сайтом.
+                    </p>
+                </div>
+
+                <div class="content__banner-image">
+                    <img src="static/img/Banner-image.png" alt="" class="content__big-image">
+                </div>
             </div>
-        
-            <div class="content__banner-image">
-                <img src="static/img/Banner-image.png" alt="" class="content__big-image">
-            </div>
-        </div>
 
-        <ul class="content__advantages">
-            <li class="content__advantages-item">
-                <div class="content__advantages-item-title">
-                    <img src="static/img/Graduation-cap.svg" alt="" class="content__advantages-ico">
-                    <p class="content__advantages-top-text">Для образовательных организаций</p>
-                </div>
-                <p class="content__advantages-bottom-text">80% сайтов образовательных организаций ЯО работают на системе управления сайтами CMS.edu</p>
-            </li>
-            <li class="content__advantages-item">
-                <div class="content__advantages-item-title">
-                    <img src="static/img/Puzzle.svg" alt="" class="content__advantages-ico">
-                    <p class="content__advantages-top-text">Удобство<br>использования</p>
-                </div>
-                <p class="content__advantages-bottom-text">Наша система поможет Вам эффективно управлять сайтом, не привлекая специалистов по html-верстке и программированию</p>
-            </li>
-            <li class="content__advantages-item">
-                <div class="content__advantages-item-title">
-                    <img src="static/img/Gear.svg" alt="" class="content__advantages-ico">
-                    <p class="content__advantages-top-text">Расширенный<br>функционал</p>
-                </div>
-                <p class="content__advantages-bottom-text">Большой набор доступных функций для построения и поддержки сайта</p>
-            </li>
-        </ul>
-
-        <div class="content__news">
-            <row class="content__news-row">
-                <div class="content__news-new">
-                    <div class="content__news-new-date">
-                        <div class="content__news-new-day">07<B><B><font color="#FFBE5C">/</font></B> </B>  </div>
-                        <div class="content__news-new-mounth-year">12/23</div>
+            <ul class="content__advantages">
+                <li class="content__advantages-item">
+                    <div class="content__advantages-item-title">
+                        <img src="static/img/Graduation-cap.svg" alt="" class="content__advantages-ico">
+                        <p class="content__advantages-top-text">Для образовательных организаций</p>
                     </div>
-                    <div class="content__news-new-text">
-                        <p class="content__news-new-text-main" id="ntm1">На этой странице Вы найдете ссылку на приказ Федеральной службы по надзору в сфере образования и науки (Рособрнадзор) от 04.08.2023 № 1493 "Об утверждении Требований к структуре официального сайта образовательной организации в информационно-телекоммуникационной сети "Интернет" и формату представления информации".</p>
-                        <a href="#" class="content__news-new-text-more-info">Подробнее</a>
-                    </div>
-                </div>
-
-                <div class="content__news-new">
-                    <div class="content__news-new-date">
-                        <div class="content__news-new-day" >22<B><font color="#FFBE5C">/</font></B>  </div>
-                        <div class="content__news-new-mounth-year">11/23</div>
-                    </div>
-                    <div class="content__news-new-text">
-                        <p class="content__news-new-text-main" id="ntm2">На сайте образовательной организации должны быть размещены локальные нормативные акты образовательной организации, определяющие порядок применения сервиса прокторинга, а также сервисов взаимодействия преподавателей с обучающимися и законными представителями посредством видео-конференц-связи, быстрого обмена текстовыми сообщениями, фото-, аудио- и видеоинформацией, файлами.</p>
-                        <a href="#" class="content__news-new-text-more-info">Подробнее</a>
-                    </div>
-                </div>
-            </row>
-
-            <row class="content__news-row">
-                <div class="content__news-new">
-                    <div class="content__news-new-date">
-                        <div class="content__news-new-day">20<B><font color="#FFBE5C">/</font></B>  </div>
-                        <div class="content__news-new-mounth-year">11/23</div>
-                    </div>
-                    <div class="content__news-new-text">
-                        <p class="content__news-new-text-main" id="ntm3">Не позднее 1 мая текущего учебного года при принятии образовательной организацией решения о реализации образовательных программ с применением электронного обучения, дистанционных образовательных технологий в следующем учебном году на официальном сайте образовательной организации размещается информация в соответствии с п.11</p>
-                        <a href="#" class="content__news-new-text-more-info">Подробнее</a>
-                    </div>
-                </div>
-                <div class="content__news-new">
-                    <div class="content__news-new-date">
-                        <div class="content__news-new-day">14<B><font color="#FFBE5C">/</font></B>  </div>
-                        <div class="content__news-new-mounth-year">06/23</div>
-                    </div>
-                    <div class="content__news-new-text">
-                        <p class="content__news-new-text-main" id="ntm4">Рекомендуем обратить внимание на изменения, которые вносят в статью 29 Закона об образовании изменения - в списке ниже под номерами 40 и 41 опубликованы ссылки на Федеральный закон от 29.12.2022 N 631-ФЗ "О внесении изменений в Федеральный закон "Об образовании в Российской Федерации" и Федеральный закон от 13.06.2023 № 251-ФЗ "О внесении изменения в статью 29 Федерального закона "Об образовании в Российской Федерации".</p>
-                        <a href="#" class="content__news-new-text-more-info">Подробнее</a>
-                    </div>
-                </div>
-            </row>
-        </div>
-    </div>
-
-    <footer class="footer">
-        <div class="footer__inner">
-            <ul class="footer__list-links">               
-                <li class="footer__list-links-element">
-                    <a href="#" class="footer__link">Политика в отношении обработки персональных данных</a>
+                    <p class="content__advantages-bottom-text">80% сайтов образовательных организаций ЯО работают на
+                        системе
+                        управления сайтами CMS.edu</p>
                 </li>
-                <li class="footer__list-links-element">
-                    <a href="#" class="footer__link">Соглашение пользователя</a>
+                <li class="content__advantages-item">
+                    <div class="content__advantages-item-title">
+                        <img src="static/img/Puzzle.svg" alt="" class="content__advantages-ico">
+                        <p class="content__advantages-top-text">Удобство<br>использования</p>
+                    </div>
+                    <p class="content__advantages-bottom-text">Наша система поможет Вам эффективно управлять сайтом, не
+                        привлекая специалистов по html-верстке и программированию</p>
+                </li>
+                <li class="content__advantages-item">
+                    <div class="content__advantages-item-title">
+                        <img src="static/img/Gear.svg" alt="" class="content__advantages-ico">
+                        <p class="content__advantages-top-text">Расширенный<br>функционал</p>
+                    </div>
+                    <p class="content__advantages-bottom-text">Большой набор доступных функций для построения и
+                        поддержки
+                        сайта</p>
                 </li>
             </ul>
-            <p class="footer__rights">© ГУ ЯО «Центр телекоммуникаций и информационных систем в образовании», 2009–2024</p>
+
+            <div class="content__news">
+                <div class="content__news-new">
+                    <div class="content__news-new-date">
+                        <span>07<B><font color="#FFBE5C">/</font></B></span>12/23
+                    </div>
+                    <div class="content__news-new-text">
+                        <p class="content__news-new-text-main" id="ntm1">На этой странице Вы найдете ссылку на приказ
+                            Федеральной службы по надзору в сфере образования и науки (Рособрнадзор) от 04.08.2023 №
+                            1493
+                            "Об утверждении Требований к структуре официального сайта образовательной организации в
+                            информационно-телекоммуникационной сети "Интернет" и формату представления информации".</p>
+                        <a href="#" class="content__news-new-text-more-info">Подробнее</a>
+                    </div>
+                </div>
+                <div class="content__news-new">
+                    <div class="content__news-new-date">
+                        <span>07<B><font color="#FFBE5C">/</font></B></span>12/23
+                    </div>
+                    <div class="content__news-new-text">
+                        <p class="content__news-new-text-main" id="ntm2">На сайте образовательной организации должны
+                            быть
+                            размещены локальные нормативные акты образовательной организации, определяющие порядок
+                            применения сервиса прокторинга, а также сервисов взаимодействия преподавателей с
+                            обучающимися и
+                            законными представителями посредством видео-конференц-связи, быстрого обмена текстовыми
+                            сообщениями, фото-, аудио- и видеоинформацией, файлами.</p>
+                        <a href="#" class="content__news-new-text-more-info">Подробнее</a>
+                    </div>
+                </div>
+                <div class="content__news-new">
+                    <div class="content__news-new-date">
+                        <span>07<B><font color="#FFBE5C">/</font></B></span>12/23
+                    </div>
+                    <div class="content__news-new-text">
+                        <p class="content__news-new-text-main" id="ntm3">Не позднее 1 мая текущего учебного года при
+                            принятии образовательной организацией решения о реализации образовательных программ с
+                            применением электронного обучения, дистанционных образовательных технологий в следующем
+                            учебном
+                            году на официальном сайте образовательной организации размещается информация в соответствии
+                            с
+                            п.11</p>
+                        <a href="#" class="content__news-new-text-more-info">Подробнее</a>
+                    </div>
+                </div>
+                <div class="content__news-new">
+                    <div class="content__news-new-date">
+                        <span>07<B><font color="#FFBE5C">/</font></B></span>12/23
+                    </div>
+                    <div class="content__news-new-text">
+                        <p class="content__news-new-text-main" id="ntm4">Рекомендуем обратить внимание на изменения,
+                            которые
+                            вносят в статью 29 Закона об образовании изменения - в списке ниже под номерами 40 и 41
+                            опубликованы ссылки на Федеральный закон от 29.12.2022 N 631-ФЗ "О внесении изменений в
+                            Федеральный закон "Об образовании в Российской Федерации" и Федеральный закон от 13.06.2023
+                            №
+                            251-ФЗ "О внесении изменения в статью 29 Федерального закона "Об образовании в Российской
+                            Федерации".</p>
+                        <a href="#" class="content__news-new-text-more-info">Подробнее</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content__btn-div">
+                <button class="content__all-news">Все новости</button>
+            </div>
+        </div>
+    </div>
+    <div class="top-grad">
+        <img src="static/img/top-grad.png" alt="">
+    </div>
+    <div class="left-grad">
+        <img src="static/img/left-grad.png" alt="">
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <ul class="footer__list-links">
+                    <li class="footer__list-links-element">
+                        <a href="#" class="footer__link">Политика в отношении обработки персональных данных</a>
+                    </li>
+                    <li class="footer__list-links-element">
+                        <a href="#" class="footer__link">Соглашение пользователя</a>
+                    </li>
+                </ul>
+                <p class="footer__rights">© ГУ ЯО «Центр телекоммуникаций и информационных систем в образовании»,
+                    2009–2024
+                </p>
+            </div>
         </div>
     </footer>
+
+    
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            for (var i = 1; i <= 4; i++) {
-                var textContainer = document.getElementById('ntm' + i);
-                var originalText = textContainer.textContent.trim();
-
-                while (textContainer.scrollHeight > textContainer.offsetHeight ) {
-                    console.log(123);
-                    textContainer.textContent = textContainer.textContent.slice(0, -5) + '...';
-                }
-            }
-        });
-        document.addEventListener('DOMContentLoaded', function() {
-            const burgerMenu = document.querySelector('.header__burger');
+        document.addEventListener('DOMContentLoaded', function () {
+            const burgerMenu = document.querySelector('.header__hamburger');
             const navMenu = document.querySelector('.header__menu');
-
-            burgerMenu.addEventListener('click', function() {
+            const headerBtn = document.querySelector('.header__button')
+            const headerIco = document.querySelector('.header__left-icon')
+            burgerMenu.addEventListener('click', function () {
                 navMenu.classList.toggle('show');
+                burgerMenu.classList.toggle('header__hamburger--active');
+                headerBtn.classList.toggle('show');
+                headerIco.classList.toggle('show');
             });
         });
     </script>
 
 </body>
+
 </html>
