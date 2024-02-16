@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100%;
 }
 
 .container {
@@ -52,8 +53,8 @@ body {
         border-radius: 8px;
     }
 
-        
-    &__menu-item--active{
+
+    &__menu-item--active {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -307,6 +308,69 @@ body {
     }
 }
 
+select {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 2px 3px 8px;
+
+    width: 64px;
+    height: 28px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+.paginator{
+    display: inline-flex;
+    flex-direction: row;
+    &__main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+    }
+}
+.paginationjs-pages>ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+
+        width: 266px;
+        height: 28px;
+
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.paginationjs-pages>ul>li{
+    text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding: 0px;
+        gap: 4px;
+        height: 28px;
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+
+}
+.paginationjs-pages>ul>li>a{
+    text-decoration: none;
+    color:white;
+}
 .left-grad {
     position: absolute;
     top: 100px;
